@@ -1,8 +1,8 @@
 {
-  "name": "phaser3-es6-webpack",
+  "name": "phaser-project-template-es6",
   "version": "1.0.0",
   "description": "Phaser 3 starter template with ES6 and webpack.",
-  "homepage": "https://github.com/yandeu/phaser-project-template/tree/phaser3-es6#readme",
+  "homepage": "https://github.com/yandeu/phaser-project-template-es6#readme",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack/webpack.dev.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yandeu/phaser3-typescript-webpack.git"
+    "url": "https://github.com/yandeu/phaser-project-template-es6.git"
   },
   "license": "MIT",
   "devDependencies": {
