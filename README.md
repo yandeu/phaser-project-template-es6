@@ -69,7 +69,7 @@ $ npm run build
 
 Change the **gameName** in /webpack/webpack.common.js.
 
-All your game code lies inside the /src folder. All assets need to be inside the /src/assets folder in order to get copied to /dist while creating the production build. Do not change the name of the index.html and game.ts files.
+All your game code lies inside the **/src/scripts** folder. All assets need to be inside the **/src/assets** folder in order to get copied to /dist while creating the production build. Do not change the name of the index.html and game.ts files.
 
 ## Progressive Web App (PWA)
 
@@ -77,7 +77,7 @@ All your game code lies inside the /src folder. All assets need to be inside the
 
 This template is **100% PWA ready**.
 
-The ServiceWorker is **disabled by default**. Uncommon the line below inside /src/index.html to enable it.
+The ServiceWorker is **disabled by default**. Uncomment the line below inside /src/index.html to enable it.
 
 ```html
 <script>
@@ -93,7 +93,7 @@ You can easily personalize its settings by following these steps:
 
 - Replace both icons in /src/assets/icons with your own.
   - One is **512x512** the other **192x192**
-- Add your own **favicon.ico** to /src
+- Add your own **favicon.ico** to /src/assets/icons
 - Adjust these parameters in the **manifest.json** file in /src/pwa
   - **short_name**: Max. 12 characters
   - **name**: The full game name

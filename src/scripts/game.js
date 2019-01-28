@@ -1,5 +1,5 @@
-/// <reference path="../typings/phaser.d.ts" />
-/// <reference path="../typings/custom.d.ts" />
+/// <reference path="../../typings/phaser.d.ts" />
+/// <reference path="../../typings/custom.d.ts" />
 
 import 'phaser'
 import MainScene from './scenes/mainScene'
