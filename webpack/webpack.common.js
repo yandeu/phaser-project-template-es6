@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { InjectManifest } = require('workbox-webpack-plugin')
 
 module.exports = {
-  entry: './src/scripts/game.js',
+  entry: ['@babel/polyfill', './src/scripts/game.js'],
   output: {
     filename: 'game.bundle.js',
     path: path.resolve(__dirname, '../dist')
