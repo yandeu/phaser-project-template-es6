@@ -9,6 +9,7 @@ export default class MainScene extends Phaser.Scene {
   }
 
   create() {
+    // Delete all the code below to start a fresh scene
     new PhaserLogo(this, this.cameras.main.width / 2, 0)
     this.fpsText = new FpsText(this)
 
@@ -26,6 +27,11 @@ export default class MainScene extends Phaser.Scene {
       console.log('After Pause')
     }
     asyncFunction()
+
+    // Spread operator test
+    const numbers = [0, 1, 2, 3]
+    const moreNumbers = [...numbers, 4, 5]
+    console.log(`All numbers: ` + moreNumbers)
   }
 
   update() {
