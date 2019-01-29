@@ -2,6 +2,8 @@
 /// <reference path="../../typings/custom.d.ts" />
 
 import 'phaser'
+import '@babel/polyfill'
+
 import MainScene from './scenes/mainScene'
 import PreloadScene from './scenes/preloadScene'
 
