@@ -11,10 +11,13 @@ const DEFAULT_WIDTH = 1280
 const DEFAULT_HEIGHT = 720
 
 const config = {
-  width: DEFAULT_WIDTH,
-  height: DEFAULT_HEIGHT,
-  type: Phaser.AUTO,
   backgroundColor: '#ffffff',
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.DOM.CENTER_BOTH,
+    width: DEFAULT_WIDTH,
+    height: DEFAULT_HEIGHT
+  },
   scene: [PreloadScene, MainScene],
   physics: {
     default: 'arcade',
@@ -25,21 +28,6 @@ const config = {
   }
 }
 
-export class Game extends Phaser.Game {
-  constructor(config) {
-    super(config)
-  }
-}
-
 window.addEventListener('load', () => {
-  let game = new Game(config)
-
-  const resize = () => {
-    const scale = Math.min(window.innerWidth / DEFAULT_WIDTH, window.innerHeight / DEFAULT_HEIGHT)
-    game.canvas.style.width = DEFAULT_WIDTH * scale + 'px'
-    game.canvas.style.height = DEFAULT_HEIGHT * scale + 'px'
-  }
-
-  resize()
-  window.addEventListener('resize', resize)
+  let game = new Phaser.Game(config)
 })
