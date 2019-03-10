@@ -6,8 +6,9 @@ const { InjectManifest } = require('workbox-webpack-plugin')
 module.exports = {
   entry: './src/scripts/game.js',
   output: {
-    filename: 'game.bundle.js',
-    path: path.resolve(__dirname, '../dist')
+    path: path.resolve(__dirname, '../dist'),
+    filename: '[name].bundle.js',
+    chunkFilename: '[name].chunk.js'
   },
   resolve: {
     extensions: ['.js']
