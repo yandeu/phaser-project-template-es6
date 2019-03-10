@@ -18,12 +18,17 @@
     "starter"
   ],
   "author": {
-    "name": "Yannick",
+    "name": "Yannick Deubel",
     "url": "https://github.com/yandeu"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/yandeu/phaser-project-template-es6.git"
+  },
+  "template": {
+    "name": "phaser-project-template-es6",
+    "url": "https://github.com/yandeu/phaser-project-template-es6",
+    "author": "Yannick Deubel (https://github.com/yandeu)"
   },
   "license": "MIT",
   "devDependencies": {
