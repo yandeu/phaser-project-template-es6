@@ -10,6 +10,7 @@ const DEFAULT_HEIGHT = 720
 const config = {
   backgroundColor: '#ffffff',
   scale: {
+    parent: 'phaser-game',
     mode: Phaser.Scale.FIT,
     autoCenter: Phaser.Scale.CENTER_BOTH,
     width: DEFAULT_WIDTH,
