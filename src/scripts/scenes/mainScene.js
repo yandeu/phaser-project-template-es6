@@ -9,7 +9,9 @@ export default class MainScene extends Phaser.Scene {
   }
 
   create() {
-    // Delete all the code below to start a fresh scene
+    /**
+     * Delete all the code below to start a fresh scene
+     */
     new PhaserLogo(this, this.cameras.main.width / 2, 0)
     this.fpsText = new FpsText(this)
 
