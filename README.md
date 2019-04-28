@@ -10,9 +10,14 @@
 A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a> with <strong>ES6</strong> and <a href="https://webpack.js.org/" target="_blank" >webpack</a> for building excellent html5-games that work great in the browser and on mobile devices.</h4>
 
 <p align="center">
-  <a href="https://david-dm.org/yandeu/phaser-project-template-es6" title="dependencies status"><img src="https://david-dm.org/yandeu/phaser-project-template-es6/status.svg"/></a>
-  <a href="https://david-dm.org/yandeu/phaser-project-template-es6?type=dev" title="devDependencies status"><img src="https://david-dm.org/yandeu/phaser-project-template-es6/dev-status.svg"/></a>
-  <a href="https://opensource.org/licenses/MIT" title="License: MIT" ><img src="https://img.shields.io/badge/License-MIT-greenbright.svg"></a>
+  <a href="https://david-dm.org/yandeu/phaser-project-template-es6" title="dependencies status">
+    <img src="https://david-dm.org/yandeu/phaser-project-template-es6/status.svg?style=flat-square"/>
+  </a>
+  <a href="https://opensource.org/licenses/MIT" title="License: MIT" >
+    <img src="https://img.shields.io/badge/License-MIT-greenbright.svg?style=flat-square">
+  </a>
+  <img src="https://img.shields.io/github/package-json/v/yandeu/phaser-project-template-es6.svg?style=flat-square" alt="GitHub package.json version">
+  <img src="https://img.shields.io/github/last-commit/yandeu/phaser-project-template-es6.svg?style=flat-square" alt="GitHub last commit">
 </p>
 
 <p align="center">
