@@ -145,10 +145,6 @@ Change the Babel compiler's settings in the .babelrc file.
 
 You'll find more information about the babel [here](https://babeljs.io/).
 
-### Typings
-
-The Phaser typings are in typings/**phaser.d.ts**. You can put your custom type definitions inside typings/**custom.d.ts**.
-
 ### Webpack
 
 All webpack configs are in the **webpack** folder.
