@@ -45,6 +45,6 @@ export default class MainScene extends Phaser.Scene {
   }
 
   update() {
-    this.fpsText.update(this)
+    this.fpsText.update()
   }
 }
