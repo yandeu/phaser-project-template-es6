@@ -8,6 +8,7 @@ const DEFAULT_WIDTH = 1280
 const DEFAULT_HEIGHT = 720
 
 const config = {
+  type: Phaser.AUTO,
   backgroundColor: '#ffffff',
   scale: {
     parent: 'phaser-game',
@@ -27,5 +28,5 @@ const config = {
 }
 
 window.addEventListener('load', () => {
-  let game = new Phaser.Game(config)
+  const game = new Phaser.Game(config)
 })
