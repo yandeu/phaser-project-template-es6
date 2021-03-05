@@ -41,7 +41,21 @@ A starter template for <a href="https://phaser.io/" target="_blank" >Phaser 3</a
  Want to use TypeScript instead? Switch to the <a href="https://github.com/yandeu/phaser-project-template#readme" >phaser-project-template</a>
 </blockquote>
 
----
+<br>
+<br>
+
+## \* \* \* \* \* \*
+
+# ⚠️ IMPORTANT
+
+### Please use the [phaser-project-template](https://github.com/yandeu/phaser-project-template#readme) instead!
+
+### Although it uses TypeScript under the hood, all TypeScript features are disabled by default. This means you can just write JavaScript (ES2015+) as you are used to. Give it a try! 👍
+
+## \* \* \* \* \* \*
+
+<br>
+<br>
 
 ## Key Features
 
